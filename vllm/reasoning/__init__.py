@@ -5,6 +5,8 @@ from .abs_reasoning_parsers import ReasoningParser, ReasoningParserManager
 from .deepseek_r1_reasoning_parser import DeepSeekR1ReasoningParser
 from .granite_reasoning_parser import GraniteReasoningParser
 from .qwen3_reasoning_parser import Qwen3ReasoningParser
+from .custom_cot_reasoning_parser import CustomCOTReasoningParser
+from .custom_cot_thinking_parser import CustomCOTThinkingParser
 
 __all__ = [
     "ReasoningParser",
@@ -12,4 +14,6 @@ __all__ = [
     "DeepSeekR1ReasoningParser",
     "GraniteReasoningParser",
     "Qwen3ReasoningParser",
+    "CustomCOTReasoningParser",
+    "CustomCOTThinkingParser",
 ]
